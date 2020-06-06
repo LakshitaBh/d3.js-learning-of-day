@@ -11,3 +11,8 @@ const c = document.querySelectorAll("div");
 const d = d3.selectAll("div");
 
 console.log(a,b,c,d)
+
+/**Selecting an element with class canvas */
+const canvas = d3.select(".canvas")
+console.log(canvas)
+/**Now this element has access to lot of d3 functions */
